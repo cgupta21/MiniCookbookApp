@@ -1,0 +1,13 @@
+// Project build file
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:9.4.0'
+    }
+}
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
