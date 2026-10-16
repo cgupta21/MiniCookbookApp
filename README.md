@@ -10,7 +10,9 @@ An Android application for browsing, searching, saving, and managing Indian reci
 
 ## 📖 About
 
-MiniCookbook is a recipe app with a category-based home screen. Recipes are organized into **Breakfast**, **Lunch**, **Dinner**, **Snacks**, and **Desserts**. Users can browse recipe details, search for recipes, save favorites, and add or edit recipes. Recipe data is stored locally on the device using SQLite.
+**MiniCookbookApp** is an Android recipe application designed to make discovering and managing recipes simple. It organizes recipes into five categories: **Breakfast, Lunch, Dinner, Snacks, and Desserts**.
+
+Users can explore recipes, view ingredients and cooking instructions, search for recipes, save favorites, and add or edit recipes. The application uses a local SQLite database to store recipe data on the device.
 
 ## 📸 Screenshots
 
@@ -23,33 +25,33 @@ MiniCookbook is a recipe app with a category-based home screen. Recipes are orga
 
 ## ✨ Features
 
-- **Recipe categories** – Browse recipes by meal category.
-- **Recipe details** – View ingredients, cooking steps, cooking time, and servings.
-- **Search** – Find recipes by name or ingredient.
-- **Favorites** – Save recipes to a favorites list.
-- **Add and edit recipes** – Create new recipes or update existing ones.
-- **Local storage** – Store recipe data on-device in an SQLite database.
-- **Sample recipes** – Includes 15 sample Indian recipes across five categories.
-- **Simple interface** – Category cards, recipe lists, and bottom navigation.
+- **Recipe Categories** – Browse recipes by meal category.
+- **Recipe Details** – View ingredients, cooking instructions, preparation time, and servings.
+- **Search Recipes** – Find recipes by name or ingredient.
+- **Favorites** – Save recipes for convenient access.
+- **Add and Edit Recipes** – Create new recipes and update existing ones.
+- **Local Database** – Store recipe data using SQLite.
+- **Sample Recipes** – Explore 15 sample Indian recipes across five categories.
+- **User Interface** – Navigate through category cards, recipe lists, and bottom navigation.
 
 ## 🛠️ Tech Stack
 
 | Area | Technology |
-| --- | --- |
-| Language | Java |
+|---|---|
+| Programming Language | Java |
 | Platform | Android |
 | IDE | Android Studio |
 | Database | SQLite |
 | UI | XML layouts, Activities, Fragments, RecyclerView |
-| Build | Gradle |
+| Build System | Gradle |
 
 ## 🧠 Concepts Demonstrated
 
 - Android Activities and Fragments for screen navigation.
-- XML layouts for the user interface.
-- RecyclerView adapters for displaying recipe lists.
-- SQLite for local data storage.
-- Java classes for recipe models and database operations.
+- XML layouts for designing user interfaces.
+- RecyclerView and adapters for displaying recipe lists.
+- SQLite database operations for local data storage.
+- Java classes for recipe models and application logic.
 - Gradle for project configuration and builds.
 
 ## 📁 Project Structure
@@ -59,12 +61,12 @@ MiniCookbookApp/
 ├── app/
 │   ├── src/main/
 │   │   ├── java/com/cookbook/miniapp/
-│   │   │   ├── activities/     # App screens
-│   │   │   ├── adapters/       # List adapters
-│   │   │   ├── database/       # SQLite helper and data access
-│   │   │   ├── fragments/      # UI fragments
-│   │   │   ├── models/         # Recipe data models
-│   │   │   └── utils/          # Helper classes
+│   │   │   ├── activities/
+│   │   │   ├── adapters/
+│   │   │   ├── database/
+│   │   │   ├── fragments/
+│   │   │   ├── models/
+│   │   │   └── utils/
 │   │   ├── res/
 │   │   │   ├── drawable/
 │   │   │   ├── layout/
@@ -80,15 +82,17 @@ MiniCookbookApp/
 └── README.md
 ```
 
+*Note: This is a simplified overview of the project structure.*
+
 ## 🚀 Getting Started
 
 ### Prerequisites
 
 - [Android Studio](https://developer.android.com/studio)
-- Android SDK configured through Android Studio
+- Android SDK configured in Android Studio
 - An Android emulator or a physical Android device
 
-### Run the App
+### Installation and Setup
 
 1. Clone the repository:
 
@@ -96,26 +100,31 @@ MiniCookbookApp/
    git clone https://github.com/cgupta21/MiniCookbookApp.git
    ```
 
-2. Open Android Studio and choose **Open**, then select the `MiniCookbookApp` folder.
-3. Wait for Gradle sync to finish.
-4. Select an emulator or connect an Android device.
-5. Click **Run ▶** to build and launch the app.
+2. Open Android Studio.
+3. Select **Open** and choose the cloned `MiniCookbookApp` folder.
+4. Wait for Gradle synchronization to complete.
+5. Select an emulator or connect an Android device.
+6. Click **Run ▶** to build and launch the application.
 
 ## 💾 Data Storage
 
-The app uses a local SQLite database named `cookbook.db`. Recipe data is stored on the device, so the app does not require a remote database server.
+The application uses a local SQLite database named `cookbook.db` to store recipe data on the device. A remote database server is not required for the local data storage described here.
 
 ## 🔮 Future Enhancements
 
-- User-uploaded recipe images
-- Filters for cooking time
-- Meal planning
-- Cloud backup and synchronization
+- Recipe images and image uploads.
+- Filters based on cooking time.
+- Meal planning functionality.
+- Cloud backup and synchronization.
 
 ## 👤 Author
 
-Built by [cgupta21](https://github.com/cgupta21).
+**GitHub:** [@cgupta21](https://github.com/cgupta21)
+
+## 🤝 Collaboration
+
+This repository supports collaboration through GitHub. Collaborators can help review, maintain, and improve the project.
 
 ## 📄 License
 
-This is a personal learning project. Feel free to explore the code.
+No license has been specified for this repository. All rights remain reserved by default, subject to applicable law and GitHub's terms. Add a license if you want to define how others may use, modify, or distribute the code.
